@@ -1,0 +1,27 @@
+/*
+ ============================================================================
+ Name        : ifelse_calculation.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+
+	int fnum,snum;
+
+	printf("Please enter first number :");
+	scanf("%d",&fnum);
+	printf("Please enter second number :");
+	scanf("%d",&snum);
+	printf("Please choose your choice \n");
+	printf("1. Addition \n2. Subtraction \n3. Multiplication \n4. Division \n===============");
+
+	return EXIT_SUCCESS;
+}
+
