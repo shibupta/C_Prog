@@ -101,19 +101,77 @@ else{
 */
 
 // =============================================
-//PRINT 1-100 OR USER DEFINED
-int fnum,lnum,i;
+//PRINT 1-100 (increment mode) OR USER DEFINED
+/*int fnum,lnum,i;
 
 printf("PLEASE ENTER YOUR FIRST NUMBER : ");
 scanf("%d",&fnum);
 printf("PLEASE ENTER YOUR LAST NUMBER :");
 scanf("%d",&lnum);
 
-for (i=fnum;i<=lnum;i++){
+for (i=fnum;i<=lnum;i++)
+{
 	printf("%d \n",i);
 }
+*/
+//===================================
+//PRINT 100-1 (decrement mode) OR USER DEFINED
+/*int fnum,lnum,i;
 
 
+printf("PLEASE ENTER YOUR LAST NUMBER :");
+scanf("%d",&lnum);
+printf("PLEASE ENTER YOUR FIRST NUMBER : ");
+scanf("%d",&fnum);
+
+for (i=lnum;i>=fnum;i--)
+{
+	printf("%d \n",i);
+}
+*/
+//===================================
+
+//PRINT A PATTERN (increment mode)
+/*
+int i,n=25,j;
+
+for(i=1;i<=n;i++)
+{
+	for(j=0;j<i;j++)
+	{
+printf("* ");
+	}
+	printf("\n");
+}
+
+*/
+//==================================
+//PRINT A PATTERN (decrement mode)
+/*int i,j;
+for(i=5;i>=0;i--)
+{
+	for (j=0;j<i;j++)
+		{
+			printf("* ");
+		}	
+printf("\n");
+}
+*/
+
+//==========================================
+//BREAK OR CONTINUE USING IN LOOP
+int i;
+
+for(i=0;1<10;i++)
+{
+printf("Hi ");
+if(i==5)
+{
+	break; //here you can change 'break' or 'continue'
+}
+printf("Hallo \n");
+}
+printf("Finished");
 	return EXIT_SUCCESS;
 }
 
