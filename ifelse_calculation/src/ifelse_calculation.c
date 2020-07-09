@@ -160,9 +160,9 @@ printf("\n");
 
 //==========================================
 //BREAK OR CONTINUE USING IN LOOP
-int i;
+/*int i;
 
-for(i=0;1<10;i++)
+for(i=0;1<10;i++)yy
 {
 printf("Hi ");
 if(i==5)
@@ -173,8 +173,17 @@ printf("Hallo \n");
 }
 printf("Finished");
 
+*/
 
+//MULTIPLICATION TABLE
+int n,i;
+printf("Enter a number for multiplication table :");
+scanf("%d",&n);
 
+for(i=1;i<=10;i++)
+{
+printf("%d X %d = %d \n",i,n,i*n);
+}
 
 	return EXIT_SUCCESS;
 }
