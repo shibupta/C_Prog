@@ -160,7 +160,7 @@ printf("\n");
 
 //==========================================
 //BREAK OR CONTINUE USING IN LOOP
-int i;
+/*int i;
 
 for(i=0;1<10;i++)
 {
@@ -173,7 +173,7 @@ printf("Hallo \n");
 }
 printf("Finished");
 
-
+*/
 
 
 	return EXIT_SUCCESS;

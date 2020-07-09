@@ -1,60 +1,7 @@
-12:02:27 **** Incremental Build of configuration Debug for project ifelse_calculation ****
+09:20:13 **** Incremental Build of configuration Debug for project ifelse_calculation ****
 make all 
-Building file: ../src/ifelse_calculation.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ifelse_calculation.d" -MT"src/ifelse_calculation.o" -o "src/ifelse_calculation.o" "../src/ifelse_calculation.c"
-../src/ifelse_calculation.c:27:30: warning: data argument not used by format string [-Wformat-extra-args]
-                printf("Your Answer is : ",ans);
-                       ~~~~~~~~~~~~~~~~~~~ ^
-../src/ifelse_calculation.c:31:31: warning: data argument not used by format string [-Wformat-extra-args]
-                        printf("Your Answer is : ",ans);
-                               ~~~~~~~~~~~~~~~~~~~ ^
-../src/ifelse_calculation.c:35:31: warning: data argument not used by format string [-Wformat-extra-args]
-                        printf("Your Answer is : ",ans);
-                               ~~~~~~~~~~~~~~~~~~~ ^
-../src/ifelse_calculation.c:39:31: warning: data argument not used by format string [-Wformat-extra-args]
-                        printf("Your Answer is : ",ans);
-                               ~~~~~~~~~~~~~~~~~~~ ^
-../src/ifelse_calculation.c:42:40: error: expected ';' after expression
-                printf("Your entered invalid choice")
-                                                     ^
-                                                     ;
-4 warnings and 1 error generated.
-make: *** [src/ifelse_calculation.o] Error 1
-"make all" terminated with exit code 2. Build might be incomplete.
-12:02:44 **** Incremental Build of configuration Debug for project ifelse_calculation ****
-make all 
-Building file: ../src/ifelse_calculation.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ifelse_calculation.d" -MT"src/ifelse_calculation.o" -o "src/ifelse_calculation.o" "../src/ifelse_calculation.c"
-../src/ifelse_calculation.c:16:23: warning: unused variable 'ans' [-Wunused-variable]
-        int fnum,snum,choice,ans;
-                             ^
-1 warning generated.
-Finished building: ../src/ifelse_calculation.c
- 
-Building target: ifelse_calculation
-Invoking: MacOS X C Linker
-gcc  -o "ifelse_calculation"  ./src/ifelse_calculation.o   
-Finished building target: ifelse_calculation
- 
-12:04:12 **** Incremental Build of configuration Debug for project ifelse_calculation ****
-make all 
-Building file: ../src/ifelse_calculation.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ifelse_calculation.d" -MT"src/ifelse_calculation.o" -o "src/ifelse_calculation.o" "../src/ifelse_calculation.c"
-../src/ifelse_calculation.c:16:23: warning: unused variable 'ans' [-Wunused-variable]
-        int fnum,snum,choice,ans;
-                             ^
-1 warning generated.
-Finished building: ../src/ifelse_calculation.c
- 
-Building target: ifelse_calculation
-Invoking: MacOS X C Linker
-gcc  -o "ifelse_calculation"  ./src/ifelse_calculation.o   
-Finished building target: ifelse_calculation
- 
-12:05:21 **** Incremental Build of configuration Debug for project ifelse_calculation ****
+make: Nothing to be done for `all'.
+09:20:21 **** Incremental Build of configuration Debug for project ifelse_calculation ****
 make all 
 Building file: ../src/ifelse_calculation.c
 Invoking: GCC C Compiler
@@ -66,6 +13,21 @@ Invoking: MacOS X C Linker
 gcc  -o "ifelse_calculation"  ./src/ifelse_calculation.o   
 Finished building target: ifelse_calculation
  
-12:06:37 **** Incremental Build of configuration Debug for project ifelse_calculation ****
+09:22:58 **** Incremental Build of configuration Debug for project ifelse_calculation ****
+make all 
+make: Nothing to be done for `all'.
+09:23:15 **** Incremental Build of configuration Debug for project ifelse_calculation ****
+make all 
+Building file: ../src/ifelse_calculation.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ifelse_calculation.d" -MT"src/ifelse_calculation.o" -o "src/ifelse_calculation.o" "../src/ifelse_calculation.c"
+Finished building: ../src/ifelse_calculation.c
+ 
+Building target: ifelse_calculation
+Invoking: MacOS X C Linker
+gcc  -o "ifelse_calculation"  ./src/ifelse_calculation.o   
+Finished building target: ifelse_calculation
+ 
+09:44:35 **** Incremental Build of configuration Debug for project ifelse_calculation ****
 make all 
 make: Nothing to be done for `all'.

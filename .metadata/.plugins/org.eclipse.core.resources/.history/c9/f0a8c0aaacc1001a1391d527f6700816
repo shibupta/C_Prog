@@ -167,7 +167,7 @@ for(i=0;1<10;i++)
 printf("Hi ");
 if(i==5)
 {
-	break; //here you can change 'break' or 'continue'
+	continue; //here you can change 'break' or 'continue'
 }
 printf("Hallo \n");
 }
